@@ -39,7 +39,7 @@ pgloader is now a Common Lisp program, tested using the
     $ apt-get install sbcl libsqlite3-dev make curl 
     $ cd /path/to/pgloader
     $ mkdir -p ~/.config/common-lisp/source-registry.conf.d
-    $ echo "(:tree `pwd`)" > ~/.config/common-lisp/source-registry.conf.d/pgloader.conf 
+    $ echo "(:tree \"`pwd`\")" > ~/.config/common-lisp/source-registry.conf.d/pgloader.conf 
 	$ make pgloader
 	$ ./build/pgloader.exe --help
 
